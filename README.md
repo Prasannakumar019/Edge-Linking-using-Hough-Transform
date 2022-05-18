@@ -30,7 +30,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from cv2 import cvtColor
-image=cv2.imread("img.jpg")
+image=cv2.imread("eye.webp")
 cv2.imshow("ORIGINAL",image)
 #gray=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
 
@@ -76,15 +76,15 @@ plt.axis('off')
 ## Output
 
 ### Input image and grayscale image
-![image1](https://user-images.githubusercontent.com/75235090/169018822-9c059120-d3b1-40d7-9e16-98a48958da19.png)
+![image](https://user-images.githubusercontent.com/75235090/169021842-46ab11bc-0cf3-433d-8156-1b7baad8bb96.png)
 
 
 ### Canny Edge detector output
-![image2](https://user-images.githubusercontent.com/75235090/169019315-e827227f-30c0-4670-8690-b4433648438c.png)
+![image](https://user-images.githubusercontent.com/75235090/169021909-0da9c53c-169b-4861-b54b-5e9b8e0d854d.png)
 
 
 ### Display the result of Hough transform
-![image3](https://user-images.githubusercontent.com/75235090/169019398-aeab7ae9-ce6a-4675-8ac0-eda09cb8ab8b.png)
+![image](https://user-images.githubusercontent.com/75235090/169021979-b1d65fb2-3a69-4a60-9945-b173f9de00ca.png)
 
 
 ## Result:
