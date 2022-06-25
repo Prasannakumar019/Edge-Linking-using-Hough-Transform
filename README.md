@@ -1,4 +1,6 @@
-# Edge-Linking-using-Hough-Transform
+## EX NO:08
+## DATE:18.5.22
+# <p align="center">Edge-Linking-using-Hough-Transform
 ## Aim:
 To write a Python program to detect the lines using Hough Transform.
 
@@ -24,7 +26,8 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 
 ## Program:
 ```python
-
+Developed By: Prasannakumar M
+Register Number : 212220230035
 # Read image and convert it to grayscale image
 import cv2
 import numpy as np
